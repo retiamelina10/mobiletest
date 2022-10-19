@@ -1,0 +1,471 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-19T03:07:04.071Z",
+        "before": [
+          {
+            "result": {
+              "duration": 18698981000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Adding two numbers",
+        "description": "",
+        "id": "adding-numbers;adding-two-numbers",
+        "after": [
+          {
+            "result": {
+              "duration": 869107900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 130262600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "a is 1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 5
+                }
+              ],
+              "location": "com.example.steps.MathsStepDefinitions.givenAIs(int)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3995900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "b is 2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 5
+                }
+              ],
+              "location": "com.example.steps.MathsStepDefinitions.givenBIs(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3999700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add a and b",
+            "match": {
+              "location": "com.example.steps.MathsStepDefinitions.iAddAAndB()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 270001900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the total should be 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 20
+                }
+              ],
+              "location": "com.example.steps.MathsStepDefinitions.theTotalShouldBe(int)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Adding Numbers",
+    "description": "",
+    "id": "adding-numbers",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/adding_numbers.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-19T03:07:24.889Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16624397200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Login with valid account",
+        "description": "",
+        "id": "login;login-with-valid-account",
+        "after": [
+          {
+            "result": {
+              "duration": 972299700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1026997200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on login page",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 366669500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I input valid email",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iInputValidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 644178800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input valid password",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iInputValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 707304200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1671997800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I success login",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iSuccessLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-19T03:07:47.377Z",
+        "before": [
+          {
+            "result": {
+              "duration": 27541644000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with invalid email and valid password",
+        "description": "",
+        "id": "login;login-with-invalid-email-and-valid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1025107000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1142144700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am on login page",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 307994700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I input invalid email",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iInputInvalidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 631329300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I input valid password",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iInputValidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678895500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1602997900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I can not login",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iCanNotLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-19T03:08:20.718Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22745265500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Login with invalid password",
+        "description": "",
+        "id": "login;login-with-invalid-password",
+        "after": [
+          {
+            "result": {
+              "duration": 3037009500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 608003200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I am on login page",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147747400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I input valid email",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iInputValidEmail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 717811300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I input invalid password",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iInputInvalidPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 678995300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008997200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I can not login",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iCanNotLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-10-19T03:08:50.897Z",
+        "before": [
+          {
+            "result": {
+              "duration": 30026764900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.before()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Login wit null email and password",
+        "description": "",
+        "id": "login;login-wit-null-email-and-password",
+        "after": [
+          {
+            "result": {
+              "duration": 4714218500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.example.hook.AndroidDriverHook.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1102872500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I am on login page",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iAmOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1200999300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click login button",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iClickLoginButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3861996300,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I can not login",
+            "match": {
+              "location": "com.example.steps.LoginPageStepdefinision.iCanNotLogin()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As a user\n  I want to login\n  So I can see my account",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/math/loginpage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","Login with valid account","SUCCESS","2022-10-19T10:07:24.9457099+07:00[Asia/Jakarta]","0.0","22.14"
+"Login","Login with invalid email and valid password","SUCCESS","2022-10-19T10:07:47.4385301+07:00[Asia/Jakarta]","0.0","33.18"
+"Login","Login with invalid password","SUCCESS","2022-10-19T10:08:20.7571529+07:00[Asia/Jakarta]","0.0","30.07"
+"Login","Login wit null email and password","SUCCESS","2022-10-19T10:08:50.9163098+07:00[Asia/Jakarta]","0.0","41.14"
